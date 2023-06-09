@@ -10,3 +10,52 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.blackBarr{
+    background-color: black;
+    display: flex;
+    height: 240px;
+    align-items: center;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    margin-right: 0px;
+    
+}
+
+.greySquare{
+    background-color: #0d1017;
+    border-radius: 10%;
+    margin-left: 20px;
+    font-family: 'DM Serif Display', serif;;
+    font-size: 130px;
+    width: 130px;
+    height:200px;
+    text-align: center;
+    
+}
+
+.far{
+    background-color: #0d1017;
+    font-size: 130px;
+    margin-left: 80px;
+    border-radius: 10%;
+    height:200px;
+  
+}
+
+.buttons{
+    margin-top: 50px;
+    padding-left: 550px;
+}
+
+button{
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Instrument Sans', sans-serif;
+    font-style: italic;
+    border:none;
+    margin: 20px;
+}
